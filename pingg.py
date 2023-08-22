@@ -10,10 +10,9 @@ import sys
 import time
 import os
 
-def sendMsg(msg):
-    # bot.sendPhoto(receiver_id, photo=open('test_img.png', 'rb')) # send message to telegram    
-    token = '5677709932:AAFCrqx_kQYPVwNal-v9I2UuuaEM5kmM-KY' # telegram token
-    receiver_id = '-1001618039692' #https://api.telegram.org/bot<TOKEN>/getUpdates
+def sendMsg(msg):    
+    token = '[your token]' # telegram token
+    receiver_id = '[your id]' #https://api.telegram.org/bot<TOKEN>/getUpdates
     bot = telepot.Bot(token)
     bot.sendMessage(receiver_id, msg) # send a activation message to telegram receiver id
 
