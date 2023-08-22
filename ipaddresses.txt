@@ -1,0 +1,4 @@
+test_switch1;5.6.8.7;
+test_switch2;8.8.8.8;
+test_switch3;1.1.1.1;
+test_switch4;8.8.8.8;
